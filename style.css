@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;700&display=swap');
+
+:root {
+    --orange-color: #ffaa49;
+    --skin-color: #fdedbc;
+    --hover-color:#ff8e0c;
+}
+
+body{
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin: 1rem;
+}
+
+.hero-image {
+    max-width: 150px;
+    padding: 1rem;
+    display: block;
+    margin: auto;
+  }
+
+.head-container{
+    background-color: var(--orange-color);
+    padding: 1rem;
+    text-align: center;
+}
+
+.body-container{
+    background-color: var(--skin-color);
+    padding: 2rem 1rem 2rem 1rem;
+    text-align: center;
+}
+
+.text-area{
+    width : 80%;
+    height : 10vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 1rem;
+}
+
+.btn-translate-style{
+    font-weight: bolder;
+    font-size: larger;
+    background-color: var(--orange-color);
+    border: 1px solid var(--orange-color);
+    border-radius: 0.5rem;
+    color: black;
+    padding: 0.5rem 1rem;
+    margin: 1rem;
+}
+
+.btn-translate-style:hover{
+    cursor: pointer;
+    background-color: var(--hover-color);
+}
+
+
+.output-heading{
+    font-size: larger;
+    padding: 1rem;
+}
+
+.output-area{
+    border: 2px solid black;
+    background-color: white;
+    width: 80%;
+    height: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 1rem;
+
+}
+
+.footer-div{
+    font-size: larger;
+}
