@@ -1,4 +1,4 @@
-## Its a fun English to Phineas & Ferb Latin translation website built with HTML5, CSS3 and vanillaJS.
+## Its a fun English to Phineas & Ferb Latin translation website built with HTML5, CSS3 and VanillaJS.
 
 ### While Building this we used API fetching
 
